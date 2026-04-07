@@ -184,18 +184,6 @@ Je suis Clement, developpeur independant. Je cree des modules qui manquent a la 
 - DoliStore : [Modules Dolicraft](https://www.dolistore.com)
 - LinkedIn : [Dolicraft](https://www.linkedin.com/company/dolicraft)
 
-### Autres modules Dolicraft
-
-| Module | Description | Prix |
-|--------|-------------|------|
-| **DolicraftDashboard** | Tableau de bord KPI avance | Gratuit |
-| **DolicraftS3** | Stockage cloud S3 multi-provider | Gratuit |
-| **DolicraftAllo** | Integration telephonie Allo | Gratuit |
-| **DolicraftAI** | Assistant IA multi-provider | 80 EUR |
-| **DolicraftRevolut** | Integration Revolut Business | 59 EUR HT |
-| **DolicraftRMA** | Gestion des retours et SAV | 120 EUR |
-| **DolicraftMigratePro** | Migration complete Odoo vers Dolibarr | 180 EUR |
-
 ---
 
 ## Licence
