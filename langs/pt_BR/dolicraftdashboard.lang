@@ -1,0 +1,59 @@
+# Copyright (C) 2024-2026 Dolicraft <contact@dolicraft.com>
+# License: GPL v3+
+
+# Module
+Module500700Name = DolicraftDashboard
+Module500700Desc = Painel de KPI avançado para Dolibarr com métricas e análises em tempo real
+
+# Admin pages
+DolicraftDashboard = DolicraftDashboard
+DolicraftDashboardSetup = Configuração do DolicraftDashboard
+DolicraftDashboardAbout = Sobre o DolicraftDashboard
+DolicraftDashboardAboutDesc = Painel de KPI avançado para Dolibarr. Acompanhe o desempenho do seu negócio com métricas em tempo real: receita, faturas, orçamentos, pedidos, clientes e produtos. Módulo gratuito da Dolicraft.
+
+# Menu
+Dashboard = Painel
+Configuration = Configuração
+About = Sobre
+
+# Setup
+DolicraftDashboardDefaultPeriod = Período padrão
+DolicraftDashboardCurrency = Símbolo da moeda
+DolicraftDashboardWidgets = Widgets do painel
+DolicraftDashboardShowRevenue = Exibir widget de receita
+DolicraftDashboardShowInvoices = Exibir widget de faturas
+DolicraftDashboardShowProposals = Exibir widget de orçamentos
+DolicraftDashboardShowOrders = Exibir widget de pedidos
+DolicraftDashboardShowCustomers = Exibir widget de clientes
+DolicraftDashboardShowProducts = Exibir widget de produtos
+
+# Periods
+CurrentMonth = Mês atual
+CurrentYear = Ano atual
+Last30Days = Últimos 30 dias
+Last12Months = Últimos 12 meses
+
+# Dashboard
+RevenueEvolution = Evolução da receita
+TopCustomers = Principais clientes
+LatestInvoices = Últimas faturas
+LatestProposals = Últimos orçamentos
+NoDataAvailable = Nenhum dado disponível para este período
+NewCustomers = Novos clientes
+ProductsSold = Produtos vendidos
+Turnover = Receita
+ConversionRate = Taxa de conversão
+AverageInvoice = Valor médio das faturas
+AveragePaymentDelay = Prazo médio de pagamento
+TotalCustomers = Total de clientes
+TotalProducts = Total de produtos
+ActiveProposals = Orçamentos ativos
+PreviousPeriod = período anterior
+Days = dias
+Opened = aberto(s)
+
+# General
+ModuleInfo = Informações do módulo
+ModuleName = Nome do módulo
+Features = Funcionalidades
+Free = Gratuito

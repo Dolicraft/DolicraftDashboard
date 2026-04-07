@@ -1,0 +1,92 @@
+# Copyright (C) 2024-2026 Dolicraft <contact@dolicraft.com>
+# License: GPL v3+
+
+# Module
+Module500700Name = DolicraftDashboard
+Module500700Desc = Tableau de bord KPI avancé pour Dolibarr avec métriques et analyses en temps réel
+
+# Admin pages
+DolicraftDashboard = DolicraftDashboard
+DolicraftDashboardSetup = Configuration de DolicraftDashboard
+DolicraftDashboardAbout = À propos de DolicraftDashboard
+DolicraftDashboardAboutDesc = Tableau de bord KPI avancé pour Dolibarr. Suivez les performances de votre entreprise avec des métriques en temps réel : chiffre d'affaires, factures, devis, commandes, clients et produits. Module gratuit par Dolicraft.
+
+# Menu
+Dashboard = Tableau de bord
+Configuration = Configuration
+About = À propos
+
+# Setup
+DolicraftDashboardDefaultPeriod = Période par défaut
+DolicraftDashboardCurrency = Symbole de la devise
+DolicraftDashboardWidgets = Widgets du tableau de bord
+DolicraftDashboardShowRevenue = Afficher le widget chiffre d'affaires
+DolicraftDashboardShowInvoices = Afficher le widget factures
+DolicraftDashboardShowProposals = Afficher le widget devis
+DolicraftDashboardShowOrders = Afficher le widget commandes
+DolicraftDashboardShowCustomers = Afficher le widget clients
+DolicraftDashboardShowProducts = Afficher le widget produits
+DolicraftDashboardReplaceDefault = Remplacer le tableau de bord Dolibarr par défaut
+DolicraftDashboardReplaceDefaultHelp = Redirige automatiquement la page d'accueil vers DolicraftDashboard
+DolicraftDashboardShowOverdue = Afficher les factures en retard
+DolicraftDashboardShowTopProducts = Afficher le top produits
+DolicraftDashboardShowBankBalance = Afficher le solde bancaire
+DolicraftDashboardShowAgenda = Afficher l'agenda du jour
+DolicraftDashboardShowSupplierOrders = Afficher les commandes fournisseurs
+DolicraftDashboardShowLowStock = Afficher les alertes de stock
+DolicraftDashboardShowRevenueChart = Afficher le graphique CA
+
+# Periods
+CurrentMonth = Mois en cours
+CurrentYear = Année en cours
+Last30Days = 30 derniers jours
+Last12Months = 12 derniers mois
+
+# Dashboard
+RevenueEvolution = Évolution du chiffre d'affaires
+TopCustomers = Meilleurs clients
+LatestInvoices = Dernières factures
+LatestProposals = Derniers devis
+NoDataAvailable = Aucune donnée disponible pour cette période
+NewCustomers = Nouveaux clients
+ProductsSold = Produits vendus
+Turnover = Chiffre d'affaires
+ConversionRate = Taux de conversion
+AverageInvoice = Montant moyen des factures
+AveragePaymentDelay = Délai moyen de paiement
+TotalCustomers = Total clients
+TotalProducts = Total produits
+ActiveProposals = Devis en cours
+PreviousPeriod = période précédente
+Days = jours
+Opened = ouvert(s)
+KeyIndicators = Indicateurs clés
+CustomersTotal = Total clients
+ProductsTotal = Total produits
+ProposalsOpened = Devis en cours
+OrdersToProcess = Commandes en cours
+BillsCustomersUnpaid = Factures impayées
+AdditionalIndicators = Indicateurs complémentaires
+OverdueInvoices = Factures en retard
+LateInvoices = en retard
+BankBalance = Trésorerie
+BankAccounts = comptes bancaires
+SupplierOrdersPending = Commandes fournisseurs en cours
+TopProducts = Top produits vendus
+LowStockAlert = Alertes stock bas
+TodayAgenda = Agenda du jour
+ToDo = À faire
+Done = Terminé
+StockLimit = Seuil alerte
+Statistics = Statistiques
+ResetLayout = Réinitialiser la disposition
+HideWidget = Masquer ce widget
+ShowWidget = Afficher ce widget
+HiddenWidgets = Widgets masqués
+DragToReorder = Glisser-déposer pour réorganiser
+
+# General
+ModuleInfo = Informations sur le module
+ModuleName = Nom du module
+Features = Fonctionnalités
+Free = Gratuit

@@ -1,0 +1,59 @@
+# Copyright (C) 2024-2026 Dolicraft <contact@dolicraft.com>
+# License: GPL v3+
+
+# Module
+Module500700Name = DolicraftDashboard
+Module500700Desc = Dashboard KPI avanzato per Dolibarr con metriche e analisi in tempo reale
+
+# Admin pages
+DolicraftDashboard = DolicraftDashboard
+DolicraftDashboardSetup = Configurazione di DolicraftDashboard
+DolicraftDashboardAbout = Informazioni su DolicraftDashboard
+DolicraftDashboardAboutDesc = Dashboard KPI avanzato per Dolibarr. Monitora le prestazioni della tua attività con metriche in tempo reale: fatturato, fatture, preventivi, ordini, clienti e prodotti. Modulo gratuito di Dolicraft.
+
+# Menu
+Dashboard = Dashboard
+Configuration = Configurazione
+About = Informazioni
+
+# Setup
+DolicraftDashboardDefaultPeriod = Periodo predefinito
+DolicraftDashboardCurrency = Simbolo della valuta
+DolicraftDashboardWidgets = Widget della dashboard
+DolicraftDashboardShowRevenue = Mostra widget fatturato
+DolicraftDashboardShowInvoices = Mostra widget fatture
+DolicraftDashboardShowProposals = Mostra widget preventivi
+DolicraftDashboardShowOrders = Mostra widget ordini
+DolicraftDashboardShowCustomers = Mostra widget clienti
+DolicraftDashboardShowProducts = Mostra widget prodotti
+
+# Periods
+CurrentMonth = Mese corrente
+CurrentYear = Anno corrente
+Last30Days = Ultimi 30 giorni
+Last12Months = Ultimi 12 mesi
+
+# Dashboard
+RevenueEvolution = Evoluzione del fatturato
+TopCustomers = Migliori clienti
+LatestInvoices = Ultime fatture
+LatestProposals = Ultimi preventivi
+NoDataAvailable = Nessun dato disponibile per questo periodo
+NewCustomers = Nuovi clienti
+ProductsSold = Prodotti venduti
+Turnover = Fatturato
+ConversionRate = Tasso di conversione
+AverageInvoice = Importo medio delle fatture
+AveragePaymentDelay = Ritardo medio di pagamento
+TotalCustomers = Totale clienti
+TotalProducts = Totale prodotti
+ActiveProposals = Preventivi attivi
+PreviousPeriod = periodo precedente
+Days = giorni
+Opened = aperto/i
+
+# General
+ModuleInfo = Informazioni sul modulo
+ModuleName = Nome del modulo
+Features = Funzionalità
+Free = Gratuito

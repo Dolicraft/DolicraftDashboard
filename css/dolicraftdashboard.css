@@ -1,0 +1,391 @@
+/**
+ * DolicraftDashboard - CSS Styles
+ *
+ * Copyright (C) 2024-2026 Dolicraft <contact@dolicraft.com>
+ * License: GPL v3+
+ */
+
+/* ============================================
+   Menu Icon
+   ============================================ */
+.fa-dolicraftdashboard::before {
+	content: "\f201"; /* fa-chart-line */
+}
+
+/* ============================================
+   Dashboard Grid Layout
+   ============================================ */
+.dolicraftdashboard-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	padding: 20px 0;
+}
+
+.dolicraftdashboard-grid-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	padding: 20px 0;
+}
+
+.dolicraftdashboard-grid-3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	padding: 20px 0;
+}
+
+.dolicraftdashboard-full-width {
+	grid-column: 1 / -1;
+}
+
+/* ============================================
+   KPI Cards
+   ============================================ */
+.dolicraftdashboard-card {
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 20px;
+	border: 1px solid #e0e0e0;
+	border-top: 4px solid #4e73df;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+	position: relative;
+	overflow: hidden;
+}
+
+.dolicraftdashboard-card:hover {
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	transform: translateY(-2px);
+}
+
+.dolicraftdashboard-card-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.dolicraftdashboard-card-title {
+	font-size: 0.85em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #6c757d;
+	margin: 0;
+}
+
+.dolicraftdashboard-card-icon {
+	font-size: 1.8em;
+	opacity: 0.3;
+	color: #6c757d;
+}
+
+.dolicraftdashboard-card-value {
+	font-size: 1.8em;
+	font-weight: 700;
+	color: #2d3436;
+	margin: 0 0 8px 0;
+	line-height: 1.2;
+}
+
+.dolicraftdashboard-card-footer {
+	font-size: 0.82em;
+	color: #6c757d;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+/* Card color variants (top border) */
+.dolicraftdashboard-card--revenue {
+	border-top-color: #1cc88a;
+}
+
+.dolicraftdashboard-card--invoices {
+	border-top-color: #4e73df;
+}
+
+.dolicraftdashboard-card--proposals {
+	border-top-color: #f6c23e;
+}
+
+.dolicraftdashboard-card--orders {
+	border-top-color: #36b9cc;
+}
+
+.dolicraftdashboard-card--customers {
+	border-top-color: #e74a3b;
+}
+
+.dolicraftdashboard-card--products {
+	border-top-color: #858796;
+}
+
+/* ============================================
+   Chart Containers
+   ============================================ */
+.dolicraftdashboard-chart-container {
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 20px;
+	border: 1px solid #e0e0e0;
+	margin-bottom: 20px;
+}
+
+.dolicraftdashboard-chart-container h3 {
+	font-size: 1em;
+	font-weight: 600;
+	color: #2d3436;
+	margin: 0 0 15px 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.dolicraftdashboard-chart-canvas {
+	width: 100%;
+	min-height: 300px;
+}
+
+/* ============================================
+   Status Badges
+   ============================================ */
+.dolicraftdashboard-badge {
+	display: inline-flex;
+	align-items: center;
+	padding: 3px 10px;
+	border-radius: 12px;
+	font-size: 0.78em;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.dolicraftdashboard-badge--success {
+	background-color: #d4edda;
+	color: #155724;
+}
+
+.dolicraftdashboard-badge--warning {
+	background-color: #fff3cd;
+	color: #856404;
+}
+
+.dolicraftdashboard-badge--danger {
+	background-color: #f8d7da;
+	color: #721c24;
+}
+
+.dolicraftdashboard-badge--info {
+	background-color: #d1ecf1;
+	color: #0c5460;
+}
+
+.dolicraftdashboard-badge--neutral {
+	background-color: #e9ecef;
+	color: #495057;
+}
+
+/* Trend indicators */
+.dolicraftdashboard-trend-up {
+	color: #1cc88a;
+}
+
+.dolicraftdashboard-trend-down {
+	color: #e74a3b;
+}
+
+.dolicraftdashboard-trend-neutral {
+	color: #858796;
+}
+
+/* ============================================
+   Widget Drag & Drop System
+   ============================================ */
+
+.dolicraft-widget-zone {
+	min-height: 50px;
+}
+
+.dolicraft-widget {
+	position: relative;
+	transition: box-shadow 0.2s ease;
+}
+
+.dolicraft-widget-header {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 0;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.dolicraft-drag-handle {
+	cursor: grab;
+	color: #adb5bd;
+	padding: 2px 4px;
+	font-size: 0.9em;
+	transition: color 0.15s;
+}
+
+.dolicraft-drag-handle:hover {
+	color: #495057;
+}
+
+.dolicraft-drag-handle:active {
+	cursor: grabbing;
+}
+
+.dolicraft-widget-title {
+	flex: 1;
+	font-weight: 600;
+	font-size: 0.85em;
+	color: #495057;
+}
+
+.dolicraft-widget-toggle {
+	cursor: pointer;
+	color: #adb5bd;
+	padding: 2px 6px;
+	font-size: 0.85em;
+	border: none;
+	background: none;
+	transition: color 0.15s;
+}
+
+.dolicraft-widget-toggle:hover {
+	color: #ef4444;
+}
+
+.dolicraft-widget-dragging {
+	opacity: 0.4;
+	border: 2px dashed #3b82f6 !important;
+}
+
+.dolicraft-drop-placeholder {
+	background: #dbeafe;
+	border: 2px dashed #3b82f6;
+	border-radius: 6px;
+	margin: 4px 0;
+	transition: height 0.15s;
+}
+
+.dolicraft-widget-hidden {
+	display: none !important;
+}
+
+/* KPI zone grid */
+.dolicraft-kpi-zone {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 0;
+}
+
+.dolicraft-kpi-zone .dolicraft-widget {
+	border-right: 1px solid #e0e0e0;
+	padding: 12px 15px;
+	text-align: center;
+}
+
+.dolicraft-kpi-zone .dolicraft-widget:last-child {
+	border-right: none;
+}
+
+.dolicraft-kpi-zone .dolicraft-widget-header {
+	border-bottom: none;
+	justify-content: center;
+	padding: 0 0 4px 0;
+	margin-bottom: 0;
+}
+
+/* Table zone grid */
+.dolicraft-table-zone {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 20px;
+	align-items: start;
+}
+
+/* Reset layout button */
+.dolicraft-reset-btn {
+	font-size: 0.8em;
+	color: #6c757d;
+	cursor: pointer;
+	border: 1px solid #dee2e6;
+	background: #f8f9fa;
+	padding: 3px 10px;
+	border-radius: 4px;
+	transition: all 0.15s;
+}
+
+.dolicraft-reset-btn:hover {
+	background: #e9ecef;
+	color: #495057;
+}
+
+/* Hidden widgets panel */
+.dolicraft-hidden-panel {
+	background: #f8f9fa;
+	border: 1px solid #dee2e6;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.dolicraft-hidden-chip {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	padding: 3px 10px;
+	margin: 2px;
+	border-radius: 12px;
+	font-size: 0.8em;
+	background: #e9ecef;
+	color: #495057;
+	cursor: pointer;
+	transition: background 0.15s;
+}
+
+.dolicraft-hidden-chip:hover {
+	background: #dbeafe;
+	color: #1e40af;
+}
+
+/* ============================================
+   Responsive Breakpoints
+   ============================================ */
+
+/* Tablet: 2 columns */
+@media (max-width: 1024px) {
+	.dolicraftdashboard-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+	}
+
+	.dolicraftdashboard-grid-3 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* Mobile: 1 column */
+@media (max-width: 640px) {
+	.dolicraftdashboard-grid,
+	.dolicraftdashboard-grid-2,
+	.dolicraftdashboard-grid-3 {
+		grid-template-columns: 1fr;
+		gap: 12px;
+		padding: 10px 0;
+	}
+
+	.dolicraftdashboard-card {
+		padding: 15px;
+	}
+
+	.dolicraftdashboard-card-value {
+		font-size: 1.5em;
+	}
+
+	.dolicraftdashboard-chart-canvas {
+		min-height: 220px;
+	}
+}

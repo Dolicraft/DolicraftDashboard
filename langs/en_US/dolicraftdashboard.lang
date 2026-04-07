@@ -1,0 +1,68 @@
+# Copyright (C) 2024-2026 Dolicraft <contact@dolicraft.com>
+# License: GPL v3+
+
+# Module
+Module500700Name = DolicraftDashboard
+Module500700Desc = Advanced KPI dashboard for Dolibarr with real-time metrics and analytics
+
+# Admin pages
+DolicraftDashboard = DolicraftDashboard
+DolicraftDashboardSetup = DolicraftDashboard Configuration
+DolicraftDashboardAbout = About DolicraftDashboard
+DolicraftDashboardAboutDesc = Advanced KPI dashboard for Dolibarr. Monitor your business performance with real-time revenue, invoices, proposals, orders, customers and products metrics. Free module by Dolicraft.
+
+# Menu
+Dashboard = Dashboard
+Configuration = Configuration
+About = About
+
+# Setup
+DolicraftDashboardDefaultPeriod = Default period
+DolicraftDashboardCurrency = Currency symbol
+DolicraftDashboardWidgets = Dashboard Widgets
+DolicraftDashboardShowRevenue = Show revenue widget
+DolicraftDashboardShowInvoices = Show invoices widget
+DolicraftDashboardShowProposals = Show proposals widget
+DolicraftDashboardShowOrders = Show orders widget
+DolicraftDashboardShowCustomers = Show customers widget
+DolicraftDashboardShowProducts = Show products widget
+DolicraftDashboardReplaceDefault = Replace default Dolibarr dashboard
+DolicraftDashboardReplaceDefaultHelp = Automatically redirects the homepage to DolicraftDashboard
+DolicraftDashboardShowOverdue = Show overdue invoices
+DolicraftDashboardShowTopProducts = Show top products
+DolicraftDashboardShowBankBalance = Show bank balance
+DolicraftDashboardShowAgenda = Show today's agenda
+DolicraftDashboardShowSupplierOrders = Show supplier orders
+DolicraftDashboardShowLowStock = Show low stock alerts
+DolicraftDashboardShowRevenueChart = Show revenue chart
+
+# Periods
+CurrentMonth = Current month
+CurrentYear = Current year
+Last30Days = Last 30 days
+Last12Months = Last 12 months
+
+# Dashboard
+RevenueEvolution = Revenue evolution
+TopCustomers = Top customers
+LatestInvoices = Latest invoices
+LatestProposals = Latest proposals
+NoDataAvailable = No data available for this period
+NewCustomers = New customers
+ProductsSold = Products sold
+Turnover = Revenue
+ConversionRate = Conversion rate
+AverageInvoice = Average invoice amount
+AveragePaymentDelay = Average payment delay
+TotalCustomers = Total customers
+TotalProducts = Total products
+ActiveProposals = Active proposals
+PreviousPeriod = previous period
+Days = days
+Opened = opened
+
+# General
+ModuleInfo = Module Information
+ModuleName = Module Name
+Features = Features
+Free = Free

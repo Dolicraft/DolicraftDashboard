@@ -1,0 +1,59 @@
+# Copyright (C) 2024-2026 Dolicraft <contact@dolicraft.com>
+# License: GPL v3+
+
+# Module
+Module500700Name = DolicraftDashboard
+Module500700Desc = Erweitertes KPI-Dashboard für Dolibarr mit Echtzeit-Kennzahlen und Analysen
+
+# Admin pages
+DolicraftDashboard = DolicraftDashboard
+DolicraftDashboardSetup = DolicraftDashboard Konfiguration
+DolicraftDashboardAbout = Über DolicraftDashboard
+DolicraftDashboardAboutDesc = Erweitertes KPI-Dashboard für Dolibarr. Überwachen Sie Ihre Geschäftsleistung mit Echtzeit-Kennzahlen: Umsatz, Rechnungen, Angebote, Bestellungen, Kunden und Produkte. Kostenloses Modul von Dolicraft.
+
+# Menu
+Dashboard = Dashboard
+Configuration = Konfiguration
+About = Über
+
+# Setup
+DolicraftDashboardDefaultPeriod = Standardzeitraum
+DolicraftDashboardCurrency = Währungssymbol
+DolicraftDashboardWidgets = Dashboard-Widgets
+DolicraftDashboardShowRevenue = Umsatz-Widget anzeigen
+DolicraftDashboardShowInvoices = Rechnungs-Widget anzeigen
+DolicraftDashboardShowProposals = Angebots-Widget anzeigen
+DolicraftDashboardShowOrders = Bestell-Widget anzeigen
+DolicraftDashboardShowCustomers = Kunden-Widget anzeigen
+DolicraftDashboardShowProducts = Produkt-Widget anzeigen
+
+# Periods
+CurrentMonth = Aktueller Monat
+CurrentYear = Aktuelles Jahr
+Last30Days = Letzte 30 Tage
+Last12Months = Letzte 12 Monate
+
+# Dashboard
+RevenueEvolution = Umsatzentwicklung
+TopCustomers = Top-Kunden
+LatestInvoices = Neueste Rechnungen
+LatestProposals = Neueste Angebote
+NoDataAvailable = Keine Daten für diesen Zeitraum verfügbar
+NewCustomers = Neue Kunden
+ProductsSold = Verkaufte Produkte
+Turnover = Umsatz
+ConversionRate = Konversionsrate
+AverageInvoice = Durchschnittlicher Rechnungsbetrag
+AveragePaymentDelay = Durchschnittliche Zahlungsfrist
+TotalCustomers = Kunden gesamt
+TotalProducts = Produkte gesamt
+ActiveProposals = Aktive Angebote
+PreviousPeriod = vorheriger Zeitraum
+Days = Tage
+Opened = offen
+
+# General
+ModuleInfo = Modulinformationen
+ModuleName = Modulname
+Features = Funktionen
+Free = Kostenlos
