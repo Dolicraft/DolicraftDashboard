@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "module_id": "dolicraftdashboard",
+  "name": "Dolicraft Dashboard",
+  "description": "Advanced dashboard for Dolibarr with 19 widgets, drag-and-drop, KPI, and charts.",
+  "author": "Dolicraft",
+  "url": "https://dolicraft.com",
+  "license": "GPL-3.0-or-later",
+  "repository": "Dolicraft/DolicraftDashboard",
+  "dolibarr_module_id": 500700,
+  "branch": "main",
+  "compatibility": {
+    "1.x": {
+      "dolibarr_min": "16.0.0",
+      "dolibarr_max": "22.*",
+      "php_min": "7.4"
+    }
+  },
+  "dependencies": {
+    "modules": [],
+    "php_extensions": []
+  }
+}
